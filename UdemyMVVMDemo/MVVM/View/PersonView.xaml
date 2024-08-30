@@ -9,5 +9,17 @@
         <Label 
             Text="{Binding Person.Name}"
             FontSize="Large" />
+        <Slider
+            Maximum="100"
+            Minimum="0"
+            Value="{Binding Person.Age}" />
+        <Switch
+            IsToggled="{Binding Person.Married}" />
+        <DatePicker
+            Date="{Binding Person.BirthDate}" />
+        <Entry
+            Text="{Binding Person.Weight}" />
+        <TimePicker
+            Time="{Binding Person.LunchTime}" />
     </VerticalStackLayout>
 </ContentPage>
