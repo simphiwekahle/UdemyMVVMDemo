@@ -8,7 +8,7 @@ namespace UdemyMVVMDemo
         {
             InitializeComponent();
 
-            MainPage = new PersonView();
+            MainPage = new PeopleView();
         }
     }
 }
