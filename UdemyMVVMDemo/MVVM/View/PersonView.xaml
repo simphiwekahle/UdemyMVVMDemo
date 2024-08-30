@@ -7,7 +7,7 @@
         VerticalOptions="Center" 
         HorizontalOptions="Center">
         <Label 
-            Text="{Binding Name}"
+            Text="{Binding Person.Name}"
             FontSize="Large" />
     </VerticalStackLayout>
 </ContentPage>

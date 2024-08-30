@@ -68,8 +68,4 @@
 	  </MauiXaml>
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="MVVM\ViewModel\" />
-	</ItemGroup>
-
 </Project>
