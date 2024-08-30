@@ -1,4 +1,4 @@
-﻿using UdemyMVVMDemo.MVVM.ViewModel;
+﻿using UdemyMVVMDemo.MVVM.View;
 
 namespace UdemyMVVMDemo
 {

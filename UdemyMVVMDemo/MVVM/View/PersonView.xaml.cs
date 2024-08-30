@@ -1,6 +1,6 @@
 using UdemyMVVMDemo.MVVM.Model;
 
-namespace UdemyMVVMDemo.MVVM.ViewModel;
+namespace UdemyMVVMDemo.MVVM.View;
 
 public partial class PersonView : ContentPage
 {

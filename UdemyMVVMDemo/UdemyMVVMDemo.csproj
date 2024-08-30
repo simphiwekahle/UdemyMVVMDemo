@@ -63,13 +63,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="MVVM\View\" />
+	  <MauiXaml Update="MVVM\View\PersonView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="MVVM\ViewModel\PersonView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+	  <Folder Include="MVVM\ViewModel\" />
 	</ItemGroup>
 
 </Project>
