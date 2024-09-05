@@ -4,15 +4,17 @@
              x:Class="UdemyMVVMDemo.MVVM.View.PeopleView"
              Title="PeopleView">
 
-    <CollectionView SelectionMode="Multiple">
-        <CollectionView.ItemsSource>
+    <CollectionView 
+        SelectionMode="Multiple"
+        ItemsSource="{Binding People}">
+        <!--<CollectionView.ItemsSource>
             <x:Array Type="{x:Type x:String}">
                 <x:String>Sphephelo</x:String>
                 <x:String>Malume</x:String>
                 <x:String>Clive</x:String>
                 <x:String>Siyabonga</x:String>
             </x:Array>
-        </CollectionView.ItemsSource>
+        </CollectionView.ItemsSource>-->
 
         <CollectionView.ItemTemplate>
             <DataTemplate>
