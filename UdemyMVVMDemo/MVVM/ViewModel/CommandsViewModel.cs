@@ -4,12 +4,14 @@ namespace UdemyMVVMDemo.MVVM.ViewModel;
 
 public class CommandsViewModel
 {
-    public ICommand ClickCommand =>
-        new Command(Alert);
+    public ICommand ClickCommand { get; }
 
-    private void Alert()
+    public CommandsViewModel()
     {
-        App.Current.MainPage
+        ClickCommand = new Command(() =>
+        {
+            App.Current.MainPage
             .DisplayAlert("Title", "message", "Ok");
+        });
     }
 }
