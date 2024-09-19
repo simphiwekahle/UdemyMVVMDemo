@@ -16,9 +16,9 @@ public class CommandsViewModel
             .DisplayAlert("Title", "message", "Ok");
         });
 
-        SearchCommand = new Command(() =>
+        SearchCommand = new Command((s) =>
         {
-            var data = SearchTerm;
+            var data = s;
         });
     }
 }
